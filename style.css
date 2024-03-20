@@ -1,0 +1,15 @@
+/* Customize three column layout */
+.ui.grid {
+  margin-top: 20px;
+}
+.column {
+  padding: 10px;
+}
+
+/* Style input fields and buttons */
+.ui.input {
+  margin-bottom: 10px;
+}
+.ui.primary.button {
+  margin-top: 20px;
+}

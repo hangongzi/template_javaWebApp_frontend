@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <title>Product Information Management System</title>
+</head>
+<body>
+  <div class="ui three column grid">
+    <div class="column">
+      <div class="ui input">
+        <input type="text" id="productName" placeholder="商品名称">
+        <input type="text" id="productDetails" placeholder="商品详情">
+        <div class="ui checkbox">
+          <input type="checkbox" id="isOnSale">
+          <label for="isOnSale">是否在售</label>
+        </div>
+        <input type="number" id="stockQuantity" placeholder="库存数量">
+        <input type="text" id="productSpec" placeholder="商品规格">
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui input">
+        <input type="date" id="promotionDate" placeholder="促销日期">
+        <input type="number" id="promotionPrice" placeholder="促销价格">
+      </div>
+    </div>
+    <div class="column">
+      <button id="confirmButton" class="ui primary button">确认</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
